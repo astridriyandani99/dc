@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, Mail, Clock, MessageSquare, Menu, X, ChevronDown, Shield, Award } from 'lucide-react';
+import { Phone, Mail, Clock, MessageSquare, Menu, X, ChevronDown } from 'lucide-react';
 import { companyProfile } from '../data/companyProfile';
 
 export default function Navbar() {
@@ -44,16 +44,7 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center space-x-4">
-            <span className="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-950/80 text-emerald-400 border border-emerald-800/50">
-              <Shield className="w-3 h-3 mr-1" />
-              Kepatuhan Standar OJK & Mabes POLRI
-            </span>
-            <a 
-              href="#rekening" 
-              className="text-amber-400 hover:text-amber-300 font-medium transition-colors"
-            >
-              Rekening Resmi PT &rarr;
-            </a>
+            {/* Right side spacer / clean layout */}
           </div>
         </div>
       </div>
