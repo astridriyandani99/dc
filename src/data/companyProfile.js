@@ -22,5 +22,8 @@ export const companyProfile = {
     "Satpam Tersertifikasi Mabes POLRI (Gada Pratama / Madya)",
     "Anggota Asosiasi Advokat Indonesia (AAI / PERADI)",
     "Sertifikasi ISO 9001:2015 Sistem Manajemen Mutu",
-  ]
+  ],
+  // Konfigurasi Integrasi Form Spreadsheet & Telegram
+  googleScriptUrl: "", // Tempelkan URL Web App Google Apps Script di sini
+  telegramNotificationPhone: "085727642200"
 };
