@@ -7,7 +7,6 @@ import BankAccounts from './components/BankAccounts';
 import FAQSection from './components/FAQSection';
 import ContactFeedback from './components/ContactFeedback';
 import Footer from './components/Footer';
-import FloatingWhatsApp from './components/FloatingWhatsApp';
 import ClickToCallBar from './components/ClickToCallBar';
 
 export default function App() {
@@ -29,8 +28,7 @@ export default function App() {
       {/* Footer */}
       <Footer />
 
-      {/* Floating & Sticky Action Items */}
-      <FloatingWhatsApp />
+      {/* Sticky Action Items for Mobile */}
       <ClickToCallBar />
     </div>
   );
