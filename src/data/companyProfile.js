@@ -12,7 +12,7 @@ export const companyProfile = {
   address: "Sulthan Residen 21 Mranggen Demak",
   operationalHours: "Senin - Jumat: 08.30 - 17.30 WIB",
   stats: [
-    { value: "15+", label: "Tahun Pengalaman Industri", sub: "Finansial & Legal" },
+    { value: "2021", label: "Tahun Berdiri Perusahaan", sub: "Mitra Terpercaya Sejak 2021" },
     { value: "120+", label: "Lembaga Keuangan & BPR", sub: "Mitra Pelatihan Aktif" },
     { value: "4,500+", label: "Tenaga Kerja Tersertifikasi", sub: "Security, CS & Driver" },
     { value: "98.7%", label: "Tingkat Penyelesaian Litigasi", sub: "& Mediasi Non-Litigasi" },

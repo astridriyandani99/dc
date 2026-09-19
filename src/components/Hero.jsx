@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="flex items-center space-x-2 mb-6">
           <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-slate-800 text-xs font-bold tracking-tight">
             <span className="w-2 h-2 rounded-full bg-teal-600"></span>
-            <span>STRATEGIC ADVISORY &bull; FINANCIAL &bull; WORKFORCE &bull; LEGAL</span>
+            <span>EST. 2021 &bull; STRATEGIC ADVISORY &bull; FINANCIAL &bull; WORKFORCE &bull; LEGAL</span>
           </div>
         </div>
 

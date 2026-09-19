@@ -46,7 +46,7 @@ export default function Navbar() {
           <div className="flex items-center space-x-3 text-xs">
             <span className="flex items-center space-x-1.5 text-slate-400">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="text-[11px] font-medium text-slate-300">Layanan Konsultasi B2B Aktif</span>
+              <span className="text-[11px] font-medium text-slate-300">Berdiri Sejak 2021 &bull; Layanan Konsultasi B2B</span>
             </span>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function Navbar() {
                 PT DAYA CIPTA MANDIRI
               </span>
               <span className="text-[10px] uppercase tracking-wider text-teal-700 font-bold mt-1 leading-tight">
-                Financial, Workforce & Legal Advisory
+                Financial, Workforce & Legal Advisory &bull; Est. 2021
               </span>
             </div>
           </a>

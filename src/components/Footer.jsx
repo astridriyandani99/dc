@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
 
             <p className="text-slate-400 text-xs leading-relaxed max-w-sm">
-              Mitra strategis perbankan dan industri jasa keuangan terdepan dalam pengembangan kapasitas human capital, alih daya tenaga kerja bersertifikasi, dan konsultasi hukum terpercaya di Indonesia.
+              Mitra strategis perbankan dan industri jasa keuangan terdepan yang berdiri sejak tahun 2021, berfokus dalam pengembangan kapasitas human capital, alih daya tenaga kerja bersertifikasi, dan konsultasi hukum terpercaya di Indonesia.
             </p>
 
             <div className="pt-2">
