@@ -31,7 +31,7 @@ export default function Navbar() {
               title="Klik untuk menelepon kantor"
             >
               <Phone className="w-3.5 h-3.5 text-emerald-400" />
-              <span>Telepon Kantor: <strong className="text-white font-bold tracking-wide">{companyProfile.phone}</strong></span>
+              <span>Kontak / HP: <strong className="text-white font-bold tracking-wide">{companyProfile.phone}</strong></span>
             </a>
             <div className="flex items-center space-x-2 text-slate-400">
               <Clock className="w-3.5 h-3.5 text-slate-500" />
