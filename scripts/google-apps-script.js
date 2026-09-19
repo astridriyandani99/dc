@@ -1,12 +1,12 @@
 /**
  * =========================================================================
- * GOOGLE APPS SCRIPT: SPREADSHEET TO TELEGRAM NOTIFICATION FOR PT DAYA CIPTA MANDIRI
+ * GOOGLE APPS SCRIPT: SPREADSHEET TO TELEGRAM NOTIFICATION FOR DAYA CIPTA MANDIRI
  * =========================================================================
  * 
  * INSTRUKSI PENYIAPAN (HANYA 3 MENIT):
  * -------------------------------------------------------------------------
  * 1. Buka Google Sheets (spreadsheet baru) di https://sheets.new
- * 2. Beri nama spreadsheet, misal: "Data Masuk Form Web PT Daya Cipta Mandiri"
+ * 2. Beri nama spreadsheet, misal: "Data Masuk Form Web Daya Cipta Mandiri"
  * 3. Klik menu: Ekstensi > Apps Script (Extensions > Apps Script).
  * 4. Hapus semua kode default, lalu COPAS seluruh isi script ini ke editor.
  * 5. Isi konfigurasi TELEGRAM_BOT_TOKEN dan TELEGRAM_CHAT_ID di bawah ini.
@@ -88,7 +88,7 @@ function doPost(e) {
         "🏷️ *Pilar Layanan:* " + serviceCategory + "\n" +
         "📝 *Subjek:* " + subject + "\n" +
         "💬 *Pesan:* \n" + message + "\n\n" +
-        "👉 _Pesan ini diteruskan otomatis dari formulir website PT Daya Cipta Mandiri ke nomor tujuan 085727642200._";
+        "👉 _Pesan ini diteruskan otomatis dari formulir website Daya Cipta Mandiri ke nomor tujuan 085727642200._";
 
       sendTelegramMessage(TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, telegramText);
     }

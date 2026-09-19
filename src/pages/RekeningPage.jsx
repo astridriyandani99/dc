@@ -105,7 +105,7 @@ export default function RekeningPage({ onNavigateHome }) {
         {/* WhatsApp Confirmation Link - Simple & Discreet */}
         <div className="mt-4 text-center">
           <a
-            href={`https://wa.me/${companyProfile.whatsappRaw}?text=Halo%20PT%20Daya%20Cipta%20Mandiri,%20saya%20ingin%20mengonfirmasi%20pembayaran%20ke%20rekening%20BCA%20Astrid%20Riyandani.`}
+            href={`https://wa.me/${companyProfile.whatsappRaw}?text=Halo%20Daya%20Cipta%20Mandiri,%20saya%20ingin%20mengonfirmasi%20pembayaran%20ke%20rekening%20BCA%20Astrid%20Riyandani.`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-1.5 text-xs text-slate-500 hover:text-teal-700 transition-colors"

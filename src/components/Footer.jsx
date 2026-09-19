@@ -19,7 +19,7 @@ export default function Footer() {
                 DC
               </div>
               <span className="font-display font-bold text-white text-base tracking-tight">
-                PT DAYA CIPTA MANDIRI
+                DAYA CIPTA MANDIRI
               </span>
             </div>
 

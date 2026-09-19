@@ -10,7 +10,7 @@ export default function FloatingWhatsApp() {
     e.preventDefault();
     const finalMsg = userMsg.trim() 
       ? userMsg 
-      : 'Halo PT Daya Cipta Mandiri, saya ingin berkonsultasi mengenai layanan perusahaan.';
+      : 'Halo Daya Cipta Mandiri, saya ingin berkonsultasi mengenai layanan perusahaan.';
     const url = `https://wa.me/${companyProfile.whatsappRaw}?text=${encodeURIComponent(finalMsg)}`;
     window.open(url, '_blank');
     setIsOpen(false);
@@ -54,7 +54,7 @@ export default function FloatingWhatsApp() {
           <div className="p-4 bg-slate-50 space-y-3">
             <div className="bg-white p-3 rounded-xl rounded-tl-none border border-slate-200 text-xs text-slate-700 shadow-sm leading-relaxed">
               <p className="font-semibold text-slate-900 mb-1">
-                Selamat Datang di PT Daya Cipta Mandiri! 👋
+                Selamat Datang di Daya Cipta Mandiri! 👋
               </p>
               Ada yang bisa kami bantu seputar <strong>Pelatihan Bank</strong>, <strong>Jasa Outsourcing (Security/Cleaning/Driver)</strong>, atau <strong>Konsultasi Hukum</strong>?
             </div>

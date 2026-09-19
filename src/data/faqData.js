@@ -51,11 +51,11 @@ export const faqData = [
     items: [
       {
         q: "Bagaimana prosedur konfirmasi setelah melakukan transfer ke rekening resmi perusahaan?",
-        a: "Setelah melakukan transfer ke salah satu nomor rekening resmi PT Daya Cipta Mandiri yang tertera di website, Anda dapat mengunggah bukti transfer melalui WhatsApp Business kami atau email ke finance@dayaciptamandiri.co.id. Tim keuangan akan menerbitkan Official Receipt / Faktur Pajak resmi."
+        a: "Setelah melakukan transfer ke salah satu nomor rekening resmi Daya Cipta Mandiri yang tertera di website, Anda dapat mengunggah bukti transfer melalui WhatsApp Business kami atau email ke finance@dayaciptamandiri.co.id. Tim keuangan akan menerbitkan Official Receipt / Faktur Pajak resmi."
       },
       {
         q: "Apakah seluruh transaksi pembayaran dilengkapi dengan Faktur Pajak resmi?",
-        a: "Ya. Sebagai Pengusaha Kena Pajak (PKP) resmi dan berbadan hukum PT, seluruh penerimaan jasa kami akan diterbitkan Invoice resmi, Kuitansi bermeterai, dan e-Faktur PPN sesuai ketentuan perpajakan Indonesia."
+        a: "Ya. Seluruh penerimaan jasa kami akan diterbitkan Invoice resmi, Kuitansi bermeterai, dan e-Faktur PPN sesuai ketentuan perpajakan resmi di Indonesia."
       }
     ]
   }

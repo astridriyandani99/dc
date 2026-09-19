@@ -96,7 +96,7 @@ export default function ContactFeedback() {
                 Sekretariat Perusahaan
               </span>
               <h3 className="font-display text-xl font-bold text-white mb-6">
-                Kantor Pusat PT Daya Cipta Mandiri
+                Kantor Pusat Daya Cipta Mandiri
               </h3>
 
               <div className="space-y-5 text-sm">

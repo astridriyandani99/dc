@@ -1,5 +1,5 @@
 export const companyProfile = {
-  name: "PT. Daya Cipta Mandiri",
+  name: "Daya Cipta Mandiri",
   shortName: "DCM Consulting & Services",
   tagline: "Inspiring Growth, Ensuring Compliance, Delivering Value",
   description: "Mitra strategis terpercaya institusi perbankan, industri jasa keuangan, dan korporasi di Indonesia. Menghadirkan solusi terpadu pengembangan kapasitas human capital, alih daya tenaga kerja profesional, serta pendampingan hukum dan restrukturisasi berintegritas tinggi.",

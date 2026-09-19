@@ -1,4 +1,4 @@
-# PT Daya Cipta Mandiri - Corporate Website
+# Daya Cipta Mandiri - Corporate Website
 
 Website resmi perusahaan yang mengintegrasikan 3 pilar layanan utama:
 1. **Pelatihan Lembaga Keuangan**: SDM, Operasional, Manajemen Risiko, Kepatuhan (POJK/BI), Loan Scoring, dan Key Performance Indicators (KPI).

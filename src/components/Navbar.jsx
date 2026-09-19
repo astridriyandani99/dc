@@ -64,7 +64,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="font-display font-black text-slate-900 text-lg sm:text-[19px] tracking-tight leading-none group-hover:text-teal-800 transition-colors">
-                PT DAYA CIPTA MANDIRI
+                DAYA CIPTA MANDIRI
               </span>
               <span className="text-[10px] uppercase tracking-wider text-teal-700 font-bold mt-1 leading-tight">
                 Financial, Workforce & Legal Advisory &bull; Est. 2021
@@ -180,7 +180,7 @@ export default function Navbar() {
             </a>
 
             <a 
-              href={`https://wa.me/${companyProfile.whatsappRaw}?text=Halo%20PT%20Daya%20Cipta%20Mandiri,%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20perusahaan.`}
+              href={`https://wa.me/${companyProfile.whatsappRaw}?text=Halo%20Daya%20Cipta%20Mandiri,%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20perusahaan.`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-sm hover:shadow transition-all"
@@ -285,7 +285,7 @@ export default function Navbar() {
                 <span>Telepon Kantor</span>
               </a>
               <a 
-                href={`https://wa.me/${companyProfile.whatsappRaw}?text=Halo%20PT%20Daya%20Cipta%20Mandiri,%20saya%20ingin%20berkonsultasi.`}
+                href={`https://wa.me/${companyProfile.whatsappRaw}?text=Halo%20Daya%20Cipta%20Mandiri,%20saya%20ingin%20berkonsultasi.`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-2 py-2.5 rounded-xl bg-emerald-600 text-white text-xs font-bold"
