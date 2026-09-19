@@ -61,7 +61,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           
           {/* Logo Brand */}
-          <a href="#" className="flex items-center space-x-3 group">
+          <a href="#beranda" className="flex items-center space-x-3 group">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-navy to-slate-900 border border-slate-800 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform duration-200 flex-shrink-0">
               <span className="font-display font-extrabold text-white text-lg tracking-wider">
                 DC

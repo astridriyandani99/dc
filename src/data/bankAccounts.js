@@ -4,7 +4,7 @@ export const bankAccounts = [
     bankName: "Bank Central Asia (BCA)",
     shortName: "BCA",
     accountNumber: "2521362873",
-    accountName: "PT DAYA CIPTA MANDIRI",
+    accountName: "ASTRID RIYANDANI",
     branch: "KCU Semarang",
     currency: "IDR",
     badgeColor: "bg-blue-600 text-white",
