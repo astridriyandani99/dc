@@ -31,78 +31,83 @@ export default function BankAccounts() {
           </p>
         </div>
 
-        {/* Bank Cards Grid - Executive Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        {/* Bank Cards Container - Centered for single account */}
+        <div className={bankAccounts.length === 1 ? "max-w-xl mx-auto mb-12" : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12"}>
           {bankAccounts.map((bank) => {
             const isCopied = copiedId === bank.id;
             return (
               <div 
                 key={bank.id}
-                className="rounded-2xl p-6 bg-slate-800/90 border border-slate-700 hover:border-slate-500 shadow-xl flex flex-col justify-between relative group hover:-translate-y-1 transition-all duration-200"
+                className="rounded-3xl p-7 sm:p-8 bg-gradient-to-b from-slate-800 to-slate-900 border border-slate-700 hover:border-slate-500 shadow-2xl flex flex-col justify-between relative group transition-all duration-200"
               >
                 <div>
                   {/* Card Header */}
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-xs font-black tracking-wider px-2.5 py-1 rounded bg-slate-700 text-white border border-slate-600">
-                      {bank.shortName}
-                    </span>
-                    <div className="w-7 h-5 rounded bg-amber-500/20 border border-amber-500/40 flex items-center justify-center">
-                      <div className="w-3 h-2 rounded-xs bg-amber-400/60"></div>
+                  <div className="flex items-center justify-between mb-6">
+                    <div className="flex items-center space-x-3">
+                      <span className="text-sm font-black tracking-wider px-3 py-1.5 rounded-lg bg-blue-600 text-white shadow-md">
+                        {bank.shortName}
+                      </span>
+                      <span className="font-display text-base font-bold text-white">
+                        {bank.bankName}
+                      </span>
+                    </div>
+                    <div className="w-9 h-6 rounded bg-amber-500/20 border border-amber-500/50 flex items-center justify-center">
+                      <div className="w-4 h-2.5 rounded-xs bg-amber-400/80"></div>
                     </div>
                   </div>
 
-                  <h3 className="font-display text-sm font-bold text-white mb-0.5">
-                    {bank.bankName}
-                  </h3>
-                  <p className="text-[11px] text-slate-400 mb-4">
-                    {bank.branch}
+                  <p className="text-xs text-slate-400 mb-6">
+                    Kantor Cabang: <strong className="text-slate-200">{bank.branch}</strong>
                   </p>
 
                   {/* Account Number Box */}
-                  <div className="bg-slate-900 rounded-xl p-3.5 border border-slate-700 mb-4">
-                    <div className="text-[10px] text-slate-400 font-bold uppercase tracking-wider mb-1 flex items-center justify-between">
-                      <span>No. Rekening Resmi:</span>
-                      <CreditCard className="w-3 h-3 text-slate-500" />
+                  <div className="bg-slate-950/80 rounded-2xl p-5 border border-slate-800 mb-6">
+                    <div className="text-[11px] text-slate-400 font-bold uppercase tracking-wider mb-2 flex items-center justify-between">
+                      <span>Nomor Rekening Resmi ({bank.currency}):</span>
+                      <CreditCard className="w-4 h-4 text-slate-500" />
                     </div>
-                    <div className="font-mono text-base font-black text-white tracking-widest">
+                    <div className="font-mono text-2xl sm:text-3xl font-black text-white tracking-widest text-teal-300">
                       {bank.accountNumber}
                     </div>
                   </div>
 
                   {/* Beneficiary */}
-                  <div className="mb-4">
-                    <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider block">
-                      Atas Nama:
-                    </span>
-                    <span className="text-xs font-extrabold text-teal-400 uppercase tracking-wide block mt-0.5">
-                      {bank.accountName}
-                    </span>
+                  <div className="mb-6 p-4 rounded-xl bg-slate-800/60 border border-slate-700/60 flex items-center justify-between">
+                    <div>
+                      <span className="text-[10.5px] text-slate-400 font-bold uppercase tracking-wider block">
+                        Atas Nama Rekening:
+                      </span>
+                      <span className="text-sm sm:text-base font-black text-white uppercase tracking-wide block mt-0.5">
+                        {bank.accountName}
+                      </span>
+                    </div>
+                    <ShieldCheck className="w-6 h-6 text-teal-400 flex-shrink-0" />
                   </div>
                 </div>
 
                 {/* Copy Button */}
-                <div className="pt-3 border-t border-slate-700">
+                <div className="pt-4 border-t border-slate-700/80">
                   <button
                     onClick={() => handleCopy(bank.accountNumber, bank.id)}
-                    className={`w-full py-2.5 px-3 rounded-xl text-xs font-bold flex items-center justify-center space-x-2 transition-all ${
+                    className={`w-full py-3.5 px-4 rounded-xl text-sm font-bold flex items-center justify-center space-x-2.5 transition-all shadow-md ${
                       isCopied
-                        ? 'bg-emerald-600 text-white shadow-md'
-                        : 'bg-slate-700 hover:bg-slate-600 text-slate-200 hover:text-white border border-slate-600'
+                        ? 'bg-emerald-600 text-white'
+                        : 'bg-teal-600 hover:bg-teal-500 text-white'
                     }`}
                   >
                     {isCopied ? (
                       <>
-                        <Check className="w-4 h-4 text-white" />
-                        <span>Tersalin ke Clipboard!</span>
+                        <Check className="w-5 h-5 text-white animate-bounce" />
+                        <span>Nomor Rekening Tersalin ke Clipboard!</span>
                       </>
                     ) : (
                       <>
-                        <Copy className="w-3.5 h-3.5 text-slate-400 group-hover:text-white" />
-                        <span>Salin No. Rekening</span>
+                        <Copy className="w-4 h-4 text-white" />
+                        <span>Salin Nomor Rekening BCA</span>
                       </>
                     )}
                   </button>
-                  <p className="text-[10.5px] text-slate-400 text-center mt-2 leading-tight">
+                  <p className="text-xs text-slate-400 text-center mt-3 leading-relaxed">
                     {bank.description}
                   </p>
                 </div>

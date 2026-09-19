@@ -14,7 +14,7 @@ Website resmi perusahaan yang mengintegrasikan 3 pilar layanan utama:
 - **Live Chat / WhatsApp Bubble**: Widget floating di pojok kanan bawah dengan opsi konsultasi cepat.
 - **Fitur Kontak Telepon (Click-to-Call)**: Panggilan langsung nomor kantor untuk perangkat mobile & desktop.
 - **Formulir Kritik & Saran**: Validasi formulir online dengan notifikasi sukses dan tembusan email admin.
-- **Informasi Multi-Rekening Bank**: Informasi rekening 4 bank resmi (BCA, Mandiri, BNI, BRI) dilengkapi tombol *1-Click Copy No. Rekening* dan peringatan keamanan transaksi (*Anti-Fraud Notice*).
+- **Informasi Rekening Resmi Bank**: Informasi rekening resmi BCA (2521362873) dilengkapi tombol *1-Click Copy No. Rekening* dan peringatan keamanan transaksi (*Anti-Fraud Notice*).
 
 ---
 

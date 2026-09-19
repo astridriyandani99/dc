@@ -9,7 +9,7 @@ export const companyProfile = {
   whatsappRaw: "6287711911481",
   email: "kontak@dayaciptamandiri.co.id",
   adminEmail: "sekretariat.dcm@gmail.com",
-  address: "Graha Mandiri Financial Tower Lt. 18, Jl. Jend. Sudirman Kav. 54-55, Jakarta Selatan 12190",
+  address: "Sulthan Residen 21 Mranggen Demak",
   operationalHours: "Senin - Jumat: 08.30 - 17.30 WIB",
   stats: [
     { value: "15+", label: "Tahun Pengalaman Industri", sub: "Finansial & Legal" },

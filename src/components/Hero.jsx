@@ -81,7 +81,7 @@ export default function Hero() {
             {/* Trust statement */}
             <div className="pt-2 flex items-center space-x-2 text-xs text-slate-500 font-medium">
               <ShieldCheck className="w-4 h-4 text-teal-700 stroke-[2]" />
-              <span>Entitas Berbadan Hukum Resmi &bull; Rekening Perusahaan Terverifikasi di 4 Bank Nasional</span>
+              <span>Entitas Berbadan Hukum Resmi &bull; Rekening Perusahaan Terverifikasi Resmi (BCA)</span>
             </div>
           </div>
 
