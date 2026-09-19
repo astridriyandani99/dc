@@ -43,12 +43,7 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="flex items-center space-x-3 text-xs">
-            <span className="flex items-center space-x-1.5 text-slate-400">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-              <span className="text-[11px] font-medium text-slate-300">Berdiri Sejak 2021 &bull; Layanan Konsultasi B2B</span>
-            </span>
-          </div>
+
         </div>
       </div>
 
